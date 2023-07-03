@@ -69,6 +69,7 @@ class _HomeState extends State<Home> {
                   subtitle: Text(type,
                       style: TextStyle(
                           color: Theme.of(context).colorScheme.secondary)),
+                  trailing: Icon(Icons.arrow_forward_ios_rounded),
                 ),
               );
             }),
@@ -77,7 +78,7 @@ class _HomeState extends State<Home> {
         onPressed: () {
           // Aksi yang ingin dilakukan ketika tombol ditekan
         },
-        child: Icon(Icons.add),
+        child: const Icon(Icons.add),
         backgroundColor: Theme.of(context)
             .colorScheme
             .secondary, // Warna latar belakang tombol
