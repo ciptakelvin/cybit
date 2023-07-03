@@ -16,8 +16,8 @@ void main() {
     ),
     initialRoute: "/",
     routes: {
-      "/": (context) => const Home(),
-      "/credit": (context) => const Credit(),
+      "/": (context) => Home(),
+      "/credit": (context) => Credit(),
       "/simple": (context) => Simple(),
       "/generator": (context) => Generator()
     },
